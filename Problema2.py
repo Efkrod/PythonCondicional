@@ -1,7 +1,5 @@
 def par(num):
     if (num%2 == 0):
-        print(True)
+        return True
     else:
-        print(False)
-
-par(7)
+        return False
